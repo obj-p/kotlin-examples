@@ -3,6 +3,8 @@ plugins {
 }
 
 kotlin {
+    explicitApi()
+
     jvm("desktop")
 
     macosArm64()
